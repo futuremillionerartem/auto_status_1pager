@@ -1,0 +1,1 @@
+# auto_status_1pager
