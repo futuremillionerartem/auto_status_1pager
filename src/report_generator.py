@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-report_generator.py — улучшенная и исправленная версия.
-Генерирует Markdown и HTML (single-file с embedded изображениями) отчёты на русском языке.
-Особенности:
-- Нет зависимости от GUI (matplotlib.use('Agg'))
-- Очищает строковые колонки без deprecated applymap
-- Нормализация статусов и приоритетов
-- Генерация status_report_YYYYmmdd_HHMMSS.md и status_report_YYYYmmdd_HHMMSS.html по умолчанию
-- HTML содержит meta-теги для отключения кэша и встроенные изображения (data-uri)
-"""
 
 import os
 import argparse
@@ -565,3 +555,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
